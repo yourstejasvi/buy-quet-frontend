@@ -4,7 +4,7 @@ body{
 .text-container{
     width: 566px;
     height: 142px;
-    margin-left: 190px;
+    margin-left: 170px;
     margin-top: 195px;
     position: relative;
     z-index: 2;
@@ -34,7 +34,7 @@ body{
 
 .botanical-1{
     top:200px;
-    left:80px;
+    left:60px;
 }
 
 .botanical-2 img{
@@ -46,23 +46,26 @@ body{
 
 }
 .botanical-2{
-    top: 340px;
-    left: 611px;
+    top: 320px;
+    left: 622px;
 }
 .button-container{
     border-radius: 15px;
     background: #F4CC21;
     width: 249px;
     height: 64px;
-    margin-left: 345px;
-    margin-top: 50px;
+    margin-left: 325px;
+    margin-top: 25px;
     position: relative;
     z-index: 2;
+    align-items: center;
 }
 
 .button-container a{
     color: white;
     font-weight: 600;
     font-size: 28px;
-    padding: 70px;
+    padding: 60px;
+    cursor: pointer;
+    
 }
