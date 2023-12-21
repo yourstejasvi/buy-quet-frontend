@@ -1,0 +1,68 @@
+body{
+    overflow: hidden;
+}
+.text-container{
+    width: 566px;
+    height: 142px;
+    margin-left: 190px;
+    margin-top: 195px;
+    position: relative;
+    z-index: 2;
+}
+.text-container h2{
+    color: #C33C5C;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+.botanical-1,
+.botanical-2
+{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.botanical-1 img
+{
+    height: 189px;
+    width: 184px;
+    transform: rotate(198deg);
+}
+
+.botanical-1{
+    top:200px;
+    left:80px;
+}
+
+.botanical-2 img{
+    height: 189px;
+    width: 184px;
+    transform: rotate(19deg);
+    position: relative;
+    z-index: 2;
+
+}
+.botanical-2{
+    top: 340px;
+    left: 611px;
+}
+.button-container{
+    border-radius: 15px;
+    background: #F4CC21;
+    width: 249px;
+    height: 64px;
+    margin-left: 345px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.button-container a{
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 70px;
+}

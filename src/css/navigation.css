@@ -1,0 +1,50 @@
+nav{
+    margin: 20px;
+    position: relative;
+    z-index: 2;
+}
+h1{
+    color: #C33C5C;
+    font-family: Segoe Script;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 140px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: 450px;
+    margin-top: -155px;
+}
+.links{
+    margin-left: 610px;
+    margin-right: -100px;
+    margin-top: -45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.links a{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.nav-home a{
+    color: #C33C5C;
+}
+.flower-container{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -504px;
+    z-index: 1;
+}
+.flower{
+    width: 1524.834px;
+    height: 1226.286px;
+    transform: rotate(249deg);
+}
