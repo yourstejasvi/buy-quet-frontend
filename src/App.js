@@ -8,11 +8,10 @@ function App() {
   return (
     <div>
       < Navigation />
-      <div className="page-container">
       < Body />
       < About />
-      {/* < Footer /> */}
-      </div>
+      < Footer />
+  
       
       
     </div>

@@ -10,6 +10,19 @@ const footer = () => {
         <div className="footer-wrapper">
             <img className='footer-bg' src={Bg} alt='background'></img>
 
+            <div className="container">
+              
+                <div className="rectangle1">
+
+                </div>
+                <div className="rectangle-2">
+
+                </div>
+                <div className="rectangle-3">
+
+                </div>
+
+            </div>
         </div>
     </>
   )
