@@ -7,7 +7,7 @@ body{
     width: 566px;
     height: 142px;
     margin-left: 170px;
-    margin-top: 195px;
+    margin-top: 220px;
     position: relative;
     z-index: 2;
 }
@@ -29,45 +29,55 @@ body{
 }
 .botanical-1 img
 {
-    height: 189px;
-    width: 184px;
+    height: 120px;
     transform: rotate(198deg);
 }
 
 .botanical-1{
-    top:200px;
-    left:60px;
+    top:240px;
+    left:90px;
 }
 
 .botanical-2 img{
-    height: 189px;
-    width: 184px;
-    transform: rotate(19deg);
+    height: 120px;
+    transform: rotate(15deg);
     position: relative;
     z-index: 2;
 
 }
 .botanical-2{
-    top: 320px;
-    left: 622px;
+    top: 360px;
+    left: 682px;
 }
 .button-container{
     border-radius: 15px;
     background: #F4CC21;
     width: 249px;
-    height: 64px;
+    height: 44px;
     margin-left: 325px;
-    margin-top: 25px;
+    margin-top: 35px;
     position: relative;
     z-index: 2;
     align-items: center;
+    box-shadow: none;
 }
 
 .button-container a{
     color: white;
     font-weight: 600;
+    letter-spacing: 1px;
     font-size: 28px;
-    padding: 60px;
+    margin-left: 64px;
+    padding-top: 15px;
     cursor: pointer;
+    letter-spacing: none;
     
+}
+.button-container:hover{
+    box-shadow: 2px -4px 3px 0px rgba(0, 0, 0, 0.37) ;
+    
+}
+.button-container a:hover{
+    letter-spacing: 3px;
+
 }

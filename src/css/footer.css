@@ -2,8 +2,8 @@
     bottom:0;  
 }
 .footer-bg{
-    margin-top: 100px;
-    height: 445px;
+    margin-top: 150px;
+    height: 470px;
     width: 100%;
 }
 .container{
@@ -22,6 +22,64 @@
     background: #D9D9D9;
     box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.47);
     justify-content: space-around;
-    margin-left: -500px;
+    margin-top: -415px;
+    margin-left: 50px;
+    margin-right: 50px;
 
+}
+
+ul{
+    list-style-type: none;
+    color: #EFB445;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+li{
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 0px 0px transparent ;
+}
+li:hover{
+    letter-spacing: 2px;
+    box-shadow: 4px -8px 4px 0px rgba(0, 0, 0, 0.37);
+}
+.smicon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: -180px;
+}
+.smicon1,
+.smicon2,
+.smicon3,
+.smicon4{
+    height: 35px;
+    width: 35px;
+    padding: 3px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px transparent ;
+}
+.smicon-container:hover{
+    margin-left: 165px;
+}
+.smicon1:hover,
+.smicon2:hover,
+.smicon3:hover,
+.smicon4:hover{
+    height: 35px;
+    width: 35px;
+    padding: 3px;
+    cursor: pointer;
+    box-shadow: 4px -8px 4px 0px rgba(0, 0, 0, 0.37);
+}
+.bicycle{
+    margin-left: 1200px;
+    margin-top: -340px;
+    border-radius: 80px;
+    height: 260px;
 }

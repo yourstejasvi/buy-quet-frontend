@@ -11,7 +11,6 @@ function App() {
       < Body />
       < About />
       < Footer />
-  
       
       
     </div>

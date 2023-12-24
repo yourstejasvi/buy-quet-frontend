@@ -32,7 +32,13 @@ h1{
     font-weight: 700;
     font-size: 18px;
     cursor: pointer;
+    letter-spacing: none;
+    box-shadow: none;
 
+}
+.links a:hover{
+    letter-spacing: 1.5px;
+    box-shadow: 2px -3px 2px 0px rgba(0, 0, 0, 0.1) ;
 }
 .nav-home a{
     color: #C33C5C;
